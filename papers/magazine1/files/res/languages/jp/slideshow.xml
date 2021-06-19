@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_SLIDESHOW_START" label="Start ToolTip">スライドショー開始</item>
+	<item name="LNG_SLIDESHOW_STOP" label="Stop ToolTip">スライドショー停止</item>
+</lang>

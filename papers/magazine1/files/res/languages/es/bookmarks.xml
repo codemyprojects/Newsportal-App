@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="es">
+	<item name="LNG_BOOKMARK_TITLE" label="Title">Agregar marcador</item>
+	<item name="LNG_BOOKMARK_OK" label="OK Button">OK</item>
+	<item name="LNG_BOOKMARK_CANCEL" label="Cancel Button">Cancelar</item>
+	<item name="LNG_BOOKMARK_CLOSE" label="Close Button">Cerrar</item>
+	<item name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page ToolTip">Pagina $1</item>
+	<item name="LNG_BOOKMARK_TITLE2" label="Title Label">Titulo</item>
+	<item name="LNG_BOOKMARK_TOOLTIP" label="ToolTip Label">Sugerencia</item>
+	<item name="LNG_BOOKMARK_COLOR" label="Random RadioButton">Color aleatorio</item>
+</lang>

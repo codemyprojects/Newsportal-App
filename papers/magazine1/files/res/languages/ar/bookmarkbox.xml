@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_BOOKMARKBOX_TITLE" label="Bookmarks Title">المرجعية</item>
+	<item name="LNG_BOOKMARKBOX_ADD" label="Add Button">إضافة</item>
+	<item name="LNG_BOOKMARKBOX_DELETE" label="Delete Button">حذف</item>
+	<item name="LNG_BOOKMARKBOX_UPDATE" label="Update Button">تحديث</item>
+	<item name="LNG_BOOKMARKBOX_OK" label="OK Button">موافق</item>
+	<item name="LNG_BOOKMARKBOX_CANCEL" label="Cancel Button">إلغاء</item>
+	<item name="LNG_BOOKMARKBOX_CLOSE" label="Close Button">أغلق</item>
+	<item name="LNG_BOOKMARKBOX_PAGE" label="Page Title">صفحة</item>
+	<item name="LNG_BOOKMARKBOX_P" label="Pagination">ف.</item>
+</lang>

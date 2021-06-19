@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="pl">
+	<item name="LNG_PRINT_TITLE" label="Title">Drukuj</item>
+	<item name="LNG_PRINT_OK" label="OK Button">OK</item>
+	<item name="LNG_PRINT_TIP" label="Print Label">Zaznacz stronę(y) lub wprowadź zakres stron do wydrukowania.</item>
+	<item name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">Przykład:2-10,12,15</item>
+	<item name="LNG_PRINT_PREV" label="Previous Button">Poprzednie strony</item>
+	<item name="LNG_PRINT_NEXT" label="Next Button">Następne strony</item>
+	<item name="LNG_PRINT_PRINT" label="Print selected">Drukuj zaznaczone strony</item>
+	<item name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages">
+		<![CDATA[Nie możesz pozwolić, aby wydrukować więcej niż <b>$1</b> stron naraz. Zmniejsz swój wybór (masz aktualnie wybranych <b>$2</b> stron).]]>
+	</item>
+	<item name="LNG_PRINT_WARNING" label="Warning">Ostrzeżenie</item>
+</lang>

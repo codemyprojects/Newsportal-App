@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<item name="LNG_SHARE_TITLE" label="Title">Part</item>
+	<item name="LNG_SHARE_FRIEND" label="Send Label">Envoyer à un ami</item>
+	<item name="LNG_SHARE_SUBJECT" label="Subject">Sujet</item>
+	<item name="LNG_SHARE_TOEMAIL" label="To">à (adresse e-mail)</item>
+	<item name="LNG_SHARE_NOTE" label="Notes">vos notes</item>
+	<item name="LNG_SHARE_SEND" label="Send Button">Envoyer</item>
+	<item name="LNG_SHARE_BOOKMARK" label="Social Label">Social Bookmark</item>
+	<item name="LNG_SHARE_LINK" label="Link Label">Lien</item>
+	<item name="LNG_SHARE_COPY" label="Copy Button">Copier</item>
+</lang>

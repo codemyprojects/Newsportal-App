@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<item name="LNG_ZOOM_OUT">Zoom out</item>
+	<item name="LNG_ZOOM_SLIDE">Slide to control zoom level</item>
+	<item name="LNG_ZOOM_IN">Zoom in</item>
+</lang>

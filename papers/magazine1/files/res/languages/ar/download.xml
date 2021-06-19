@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_DOWNLOAD_TITLE" label="Title">تحميل</item>
+	<item name="LNG_DOWNLOAD_BUTTON" label="Download Button">تحميل</item>
+	<item name="LNG_DOWNLOAD_ALL" label="All Page RadioButton">تحميل كل الصفحات</item>
+	<item name="LNG_DOWNLOAD_PAGE" label="Page RadioButton">تحميل الصفحة:</item>
+</lang>

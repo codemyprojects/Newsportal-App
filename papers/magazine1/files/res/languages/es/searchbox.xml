@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="es">
+	<item name="LNG_SEARCHBOX_TITLE" label="Title">Buscar</item>
+	<item name="LNG_SEARCHBOX_START" label="start search">Iniciar busqueda</item>
+	<item name="LNG_SEARCHBOX_RESULTS_CLOSE" label="Close Button">Cerrar</item>
+</lang>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_THUMBNAIL_TITLE" label="Title">الصور المصغرة</item>
+	<item name="LNG_THUMBNAIL_PREV" label="Previous Button">صفحات السابقة</item>
+	<item name="LNG_THUMBNAIL_NEXT" label="Next Button">صفحات المقبل</item>
+</lang>

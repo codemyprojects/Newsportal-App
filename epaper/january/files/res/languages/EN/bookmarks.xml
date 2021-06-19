@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<item name="LNG_BOOKMARK_TITLE">Add Bookmark</item>
+	<item name="LNG_BOOKMARK_ADD">Add</item>
+	<item name="LNG_BOOKMARK_DELETE">Delete</item>
+	<item name="LNG_BOOKMARK_UPDATE">Update</item>
+	<item name="LNG_BOOKMARK_OK">OK</item>
+	<item name="LNG_BOOKMARK_CANCEL">Cancel</item>
+	<item name="LNG_BOOKMARK_CLOSE">Close</item>
+	<item name="LNG_BOOKMARK_DEFAULT_TITLE">Page $1</item>
+	<item name="LNG_BOOKMARK_TITLE2">Title</item>
+	<item name="LNG_BOOKMARK_TOOLTIP">ToolTip</item>
+	<item name="LNG_BOOKMARK_COLOR">Random Color</item>
+</lang>

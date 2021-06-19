@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_BOOKMARK_TITLE" label="Title">しおり追加</item>
+	<item name="LNG_BOOKMARK_OK" label="OK Button">OK</item>
+	<item name="LNG_BOOKMARK_CANCEL" label="Cancel Button">キャンセル</item>
+	<item name="LNG_BOOKMARK_CLOSE" label="Close Button">閉じる</item>
+	<item name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page ToolTip">Page $1</item>
+	<item name="LNG_BOOKMARK_TITLE2" label="Title Label">名前</item>
+	<item name="LNG_BOOKMARK_TOOLTIP" label="ToolTip Label">ヒント</item>
+	<item name="LNG_BOOKMARK_COLOR" label="Random RadioButton">ランダム配色</item>
+</lang>

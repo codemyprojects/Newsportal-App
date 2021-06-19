@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<item name="LNG_BOOKMARKBOX_TITLE" label="Bookmarks Title">Lesezeichen</item>
+	<item name="LNG_BOOKMARKBOX_ADD" label="Add Button">hinzufügen</item>
+	<item name="LNG_BOOKMARKBOX_DELETE" label="Delete Button">löschen</item>
+	<item name="LNG_BOOKMARKBOX_UPDATE" label="Update Button">aktualisieren</item>
+	<item name="LNG_BOOKMARKBOX_OK" label="OK Button">OK</item>
+	<item name="LNG_BOOKMARKBOX_CANCEL" label="Cancel Button">stornieren</item>
+	<item name="LNG_BOOKMARKBOX_CLOSE" label="Close Button">schließen</item>
+	<item name="LNG_BOOKMARKBOX_PAGE" label="Page Title">Seite</item>
+	<item name="LNG_BOOKMARKBOX_P" label="Pagination">p.</item>
+</lang>

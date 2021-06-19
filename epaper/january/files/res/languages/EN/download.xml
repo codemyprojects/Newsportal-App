@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<item name="LNG_DOWNLOAD_TITLE">Download</item>
+	<item name="LNG_DOWNLOAD_BUTTON">Download</item>
+	<item name="LNG_DOWNLOAD_ALL">Download All Pages</item>
+	<item name="LNG_DOWNLOAD_PAGE">Download page:</item>
+</lang>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="it">
+	<item name="LNG_ZOOM_OUT" label="Zoom Out">Zoom indietro</item>
+	<item name="LNG_ZOOM_IN" label="Zoom in">Zoom in</item>
+</lang>

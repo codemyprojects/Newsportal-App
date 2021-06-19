@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_FIRST_PAGE" label="First Page Button">最初</item>
+	<item name="LNG_LAST_PAGE" label="Last Page Button">最後</item>
+	<item name="LNG_PREV_PAGE" label="Previous Page Button">前へ</item>
+	<item name="LNG_NEXT_PAGE" label="Next Page Button">次へ</item>
+	<item name="LNG_GOTO_PAGE" label="Page Number">Page $1</item>
+	<item name="LNG_GOTO_PAGE_TIP" label="Page Number ToolTip"></item>
+	<item name="LNG_FULLSCREEN" label="Fullscreen Button">全画面</item>
+	<item name="LNG_EXITFULLSCREEN" label="Exit Fullscreen Button">全画面解除</item>
+	<item name="LNG_MUTE" label="Mute Button">消音</item>
+	<item name="LNG_MUSIC" label="Music Button">音楽</item>
+	<item name="LNG_ZOOM_IN" label="ZoomIn Button">拡大</item>
+	<item name="LNG_ZOOM_OUT" label="ZoomOut Button">縮小</item>
+	<item name="LNG_DOWNLOAD" label="Download Button">ダウンロード</item>
+	<item name="LNG_TITLE" label="Title">タイトル</item>
+	<item name="LNG_BOOKMARKS" label="Bookmarks Button">しおり</item>
+	<item name="LNG_SHARE" label="Share Button">共有</item>
+	<item name="LNG_SEARCH" label="Search Button">検索</item>
+	<item name="LNG_TOC" label="TOC Button">目次</item>
+	<item name="LNG_THUMBNAIL" label="Thumbnails Button">サムネイル</item>
+	<item name="LNG_PRINT" label="Print Button">印刷</item>
+	<item name="LNG_PLAY" label="Play Button">再生</item>
+	<item name="LNG_STOP" label="Stop Button">停止</item>
+	<item name="LNG_TOOLBAR_PAGINATION" label="Pagination">ページ:</item>
+</lang>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<item name="LNG_LANGUAGE_NAME" label="Language ToolTip">Deutsch</item>
+	<item name="LNG_LOADING" label="Page Loading">Loading...</item>
+	<item name="LNG_BOOKEDGE_PAGENUMBER" label="Page Number">Page $1</item>
+	<item name="LNG_CLOSE" label="Close Button">Close</item>
+	<item name="LNG_VIEWFULLSCREEN">Klicken Sie, um in Vollbild-Darstellung</item>
+	<item name="LNG_ESCEXITFULLSCREEN">Esc, um Vollbild</item>
+</lang>

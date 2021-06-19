@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_BOOKMARK_TITLE" label="Title">إضافة إشارة مرجعية</item>
+	<item name="LNG_BOOKMARK_OK" label="OK Button">موافق</item>
+	<item name="LNG_BOOKMARK_CANCEL" label="Cancel Button">إلغاء</item>
+	<item name="LNG_BOOKMARK_CLOSE" label="Close Button">أغلق</item>
+	<item name="LNG_BOOKMARK_DEFAULT_TITLE" label="Page ToolTip">صفحة $1</item>
+	<item name="LNG_BOOKMARK_TITLE2" label="Title Label">لقب</item>
+	<item name="LNG_BOOKMARK_TOOLTIP" label="ToolTip Label">توولتيب</item>
+	<item name="LNG_BOOKMARK_COLOR" label="Random RadioButton">لون عشوائي</item>
+</lang>

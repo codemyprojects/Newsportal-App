@@ -1,0 +1,690 @@
+@CHARSET "UTF-8";
+/**************Reset block*****************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+body{
+	font: normal normal normal 12px/18px Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+	
+}
+/*************Reset block end***************/
+
+/*************NAVIGATION***************/
+.navigationField{
+	height: 100%;
+	width: auto;
+	opacity: 0.8;
+	background-color: #91989f;
+	display: inline-block;
+	border: 1px solid #b3b3b3;
+	border-radius: 5px;
+	
+	box-shadow: 3px 2px 8px 2px #555;
+}
+.navigationToolbar{
+    text-align: center; 
+    display: block;
+	position: absolute;
+	z-index: 100000;	
+}
+.navigationButtons{
+    float:  left;
+	cursor: pointer;
+	/*box-shadow: 3px 2px 8px 2px #000;*/
+}
+
+
+
+/*************TOOLBAR BUTTONS***************/
+.buttonsField{
+	opacity:          0.8;
+	background-color: #91989f;
+	display:          inline-block;
+	border:           1px solid #b3b3b3;
+	border-radius:    3px;
+	box-shadow:       2px 1px 5px 1px rgba(0,0,0, 0.5);
+	float:            left;
+	
+}
+
+/*
+ *********************** TOC ***********************
+ */
+/* TOC */
+.tocUL{
+	display:     block;
+	position:    absolute; 
+    float:       left;
+	border:      0px solid red;
+	margin:      5px 0;
+}
+
+.tocLI{
+	display:         block;
+	border-bottom:   1px dotted #aaaaaa; /* #19233e */
+	width:           100%;
+	list-style-type: none;
+	cursor:          pointer;
+	float:           left;
+	padding:         10px 0px;
+}
+
+.tocContent{
+	border:      0px solid blue;
+	display:     block;
+	float:       left;
+	margin:      0px 0px 0px 10px;
+
+}
+/* TOC IMAGE */
+.imgTocButton{
+	height: 30px;
+	width:  30px;
+	cursor: pointer;
+	margin: 0px 5px;
+}
+/*************BACK BUTTONS***************/
+.backButton{
+	margin: 5px 0px 0px 10px;
+	display:table-inline;
+	/*height: 30px;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 5px 8px 5px 8px ;
+	cursor: pointer;
+}
+
+.backFont{
+	text-align:  center;
+	color:       #ccc;
+	font-size:   12px;
+	font-family: Lucida Grande, Arial;
+	font-weight: bold;
+}
+
+/*
+ *********************** BM ***********************
+ */
+/* BM */
+.bmUL{
+	display:     block;
+	border:      0px solid red;
+	margin:      5px 0;
+}
+
+.bmLI{
+	display:         block;
+	border-bottom:   1px dotted #aaaaaa; /* #19233e */
+	width:           100%;
+	padding:         10px;
+	list-style-type: none;
+	cursor:          pointer;
+	float:           left;
+}
+
+.bmContent{
+	border:      0px solid blue;
+	display:     block;
+	float:       left;
+}
+/* IMAGES */
+.imgBmButton{
+	cursor: pointer;
+}
+.imgAddButton{
+	cursor: pointer;
+}
+
+/*
+ *********************** SEARCH ***********************
+ */
+.imgSearchButton{
+	cursor: pointer;
+}
+/*
+ *********************** INFO ***********************
+ */
+/* TOOLBAR */
+.infoToolbar{
+	display: block;
+	position: absolute;
+}
+/* IMAGE */
+.imgInfoButton{
+	cursor: pointer;
+	margin: 0px 0px;
+}
+
+/* FONT */
+.infoCategoryFont{
+	text-align:  left;
+	color:       #000;
+	font-size:   18px;
+	font-family: Lucida Grande, Arial;
+	font-weight: bold;
+	opacity:     0.5;
+	margin:      10px;
+}
+
+.infoNameFont{
+	display:     block;
+	text-align:  left;
+	color:       #000;
+	font-size:   16px;
+	font-family: Lucida Grande, Arial;
+	font-weight: bold;
+	padding:     5px;
+}
+
+.infoDescriptionFont{
+	display:     block;
+	text-align:  left;
+	color:       #000;
+	font-size:   14px;
+	font-family: Lucida Grande, Arial;
+	font-weight: normal;
+	padding:     5px;
+}
+
+.infoBG{
+	height: 100%;
+	width: 100%;
+	opacity: 0.5; 
+	background-color: #000000;
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+/*	z-index: 111110;
+	-webkit-transform: translateZ(101px);*/
+}
+
+.infoField{
+	opacity: 0.5; 
+	background-color: #000000;
+	border:           1px solid #b3b3b3;
+	border-radius:    3px;
+	display:          inline-block;
+	float:            left;
+	
+}
+
+/*************EXIT BUTTON***************/
+.exitField{
+	height:   30px;
+	width:    30px;
+	display:  inline-block;
+	position: absolute;
+	right:    5px;
+	top:      5px;	
+}
+.imgExitButton{
+	height: 30px;
+	width:  30px;
+	cursor: pointer;
+}
+
+
+/***************CONTENT INNER ************** INFO */
+.infoUL{
+	display:     block;
+	border:      0px solid red;
+	margin:      5px 0;
+}
+
+.infoLI{
+	display:     inline-block;
+	border:      0px solid green;
+	height:      auto;
+	width:       100%;
+	
+}
+
+.infoContent{
+	border:      0px solid blue;
+	display:     block;
+	float:       left;
+}
+
+/****************************/
+
+
+.contentBorder{
+    opacity: 0.9;
+    background-color: #91989f;
+	border:           1px solid #b3b3b3;
+	border-radius:    3px;
+	box-shadow: 3px 2px 8px 2px #555;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	z-index: 100000;
+	-webkit-transform: translateZ(102px);
+}
+
+.contentBorderInner{
+	background-color: #e5e5e5;
+	border:           1px solid #777;
+	border-radius:    3px;
+	display: inline-block;
+	margin: 40px 4px 4px 4px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.contentLable{
+	display:    table-inline;
+	margin:     10px 0px 10px 10px;
+	overflow:   hidden;
+}
+
+.lableFont{
+	text-align:  center;
+	color:       #fff;
+	font-size:   16px;
+	font-family: Lucida Grande, Arial;
+	font-weight: bold;
+	text-shadow: 0px 1px 3px #111;
+
+}
+
+/************** PAGER **************/
+.pagerField{
+	float: right;
+	height: 100%;
+	opacity: 0.6;
+	background-color: #000;
+	border-radius: 3px;
+	display: block;
+}
+
+.pagerToolbar{
+	display: block;
+	position: absolute;
+}
+
+.pagerFont{
+	float:      left;
+	color:      #e5e5e5;
+	fontFamily: Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+					
+}
+.inputPage{
+	float:      left;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow:
+		0 1px 0 rgba(255,255,255,.2),
+		inset 0 4px 5px rgba(0,0,0,.6),
+		inset 0 1px 0 rgba(0,0,0,.6);
+    vertical-align: text-top;
+	padding: 0px;
+	border: 0px solid white;
+	text-align: center;
+	fontFamily: Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+}
+
+
+/*************TOOLBARS***************/
+.leftToolbar{
+    display: block;
+	position: absolute;
+	z-index: 100000;	
+}
+
+.rightToolbar{
+    display: block;
+	position: absolute;
+	z-index: 100000;	
+}
+
+
+
+
+
+
+
+
+
+/*************TOOLBARS block end***************/
+/**BLUE SKIN**/
+/*
+.keyFirst{
+	height: 20px;
+	position: absolute;
+	margin: 10px 20px 0 0;
+	cursor: pointer;
+}
+
+.imgTocButton{
+	height: 31px;
+	width: 44px;
+	cursor: pointer;
+	margin: 4px 0 0 14px;
+	float: left;
+}
+
+.imgBmButton{
+	height: 31px;
+	width: 44px;
+	cursor: pointer;
+	margin: 4px 10px 0 0;
+	float: left;
+}
+
+.imgAddButton{
+	height: 31px;
+	width: 52px;
+	cursor: pointer;
+	margin: 4px 10px 4px 0;
+	float: right;
+}
+
+.inputPage{
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow:
+		0 1px 0 rgba(255,255,255,.2),
+		inset 0 4px 5px rgba(0,0,0,.6),
+		inset 0 1px 0 rgba(0,0,0,.6);
+    vertical-align: text-top;
+	padding: 0px;
+	border: 0px solid white;
+	text-align: center;
+}
+
+.pagerField{
+	float: right;
+	height: 100%;
+	opacity: 0.6;
+	background-color: #000a24;
+	display: block;
+}
+
+.pagerToolbar{
+	display: block;
+	position: absolute;
+}
+
+
+.topToolbar{
+	opacity: 0.95;
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#5d677a), color-stop(0.49, #19233e), color-stop(0.5, #000b29), to(#000b29));
+    border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: block;
+	position: absolute;
+	z-index: 100000;
+}
+.bottomToolbar{
+	opacity: 0.95;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#5d677a), color-stop(0.49, #19233e), color-stop(0.5, #000b29), to(#000b29));
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: block;
+	position: absolute;
+	z-index: 100000;
+}
+
+*/
+
+
+
+
+.mainFrame{
+	position: absolute;
+	overflow: hidden; 
+	-webkit-transform-style: preserve-3d;
+}
+
+.body{
+	position:   absolute;
+	background: #cccccc;
+	overflow:   hidden; 
+	-webkit-transform-style: preserve-3d;
+}
+
+.preloaderZ{
+    width: 40px;
+    position: absolute;
+    -webkit-animation-duration: 2.7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: fb-loader;
+}
+
+@-webkit-keyframes fb-loader {
+    from {
+        -webkit-transform: rotate(0deg) translate3d(0px, 0px, 3px);
+    }
+    3.33% {
+        -webkit-transform: rotate(12deg) translate3d(0px, 0px, 3px);
+    }
+    6.66% {
+        -webkit-transform: rotate(24deg) translate3d(0px, 0px, 3px);
+    }
+    9.99% {
+        -webkit-transform: rotate(36deg) translate3d(0px, 0px, 3px);
+    }
+    10% {
+        -webkit-transform: rotate(36deg) translate3d(0px, 0px, 3px);
+    }
+    13.33% {
+        -webkit-transform: rotate(48deg) translate3d(0px, 0px, 3px);
+    }
+    16.66% {
+        -webkit-transform: rotate(60deg) translate3d(0px, 0px, 3px);
+    }
+    19.99% {
+        -webkit-transform: rotate(72deg) translate3d(0px, 0px, 3px);
+    }
+    20% {
+        -webkit-transform: rotate(72deg) translate3d(0px, 0px, 3px);
+    }
+    23.33% {
+        -webkit-transform: rotate(84deg) translate3d(0px, 0px, 3px);
+    }
+    26.66% {
+        -webkit-transform: rotate(96deg) translate3d(0px, 0px, 3px);
+    }
+    29.99% {
+        -webkit-transform: rotate(108deg) translate3d(0px, 0px, 3px);
+    }
+    30% {
+        -webkit-transform: rotate(108deg) translate3d(0px, 0px, 3px);
+    }
+    33.33% {
+        -webkit-transform: rotate(120deg) translate3d(0px, 0px, 3px);
+    }
+    36.66% {
+        -webkit-transform: rotate(132deg) translate3d(0px, 0px, 3px);
+    }
+    39.99% {
+        -webkit-transform: rotate(144deg) translate3d(0px, 0px, 3px);
+    }
+    40% {
+        -webkit-transform: rotate(144deg) translate3d(0px, 0px, 3px);
+    }
+    43.33% {
+        -webkit-transform: rotate(156deg) translate3d(0px, 0px, 3px);
+    }
+    46.66% {
+        -webkit-transform: rotate(168deg) translate3d(0px, 0px, 3px);
+    }
+    49.99% {
+        -webkit-transform: rotate(180deg) translate3d(0px, 0px, 3px);
+    }
+    50% {
+        -webkit-transform: rotate(180deg) translate3d(0px, 0px, 3px);
+    }
+    53.33% {
+        -webkit-transform: rotate(192deg) translate3d(0px, 0px, 3px);
+    }
+    56.66% {
+        -webkit-transform: rotate(204deg) translate3d(0px, 0px, 3px);
+    }
+    59.99% {
+        -webkit-transform: rotate(216deg) translate3d(0px, 0px, 3px);
+    }
+    60% {
+        -webkit-transform: rotate(216deg) translate3d(0px, 0px, 3px);
+    }
+    63.33% {
+        -webkit-transform: rotate(228deg) translate3d(0px, 0px, 3px);
+    }
+    66.66% {
+        -webkit-transform: rotate(240deg) translate3d(0px, 0px, 3px);
+    }
+    69.99% {
+        -webkit-transform: rotate(252deg) translate3d(0px, 0px, 3px);
+    }
+    70% {
+        -webkit-transform: rotate(252deg) translate3d(0px, 0px, 3px);
+    }
+    73.33% {
+        -webkit-transform: rotate(264deg) translate3d(0px, 0px, 3px);
+    }
+    76.66% {
+        -webkit-transform: rotate(276deg) translate3d(0px, 0px, 3px);
+    }
+    79.99% {
+        -webkit-transform: rotate(288deg) translate3d(0px, 0px, 3px);
+    }
+    80% {
+        -webkit-transform: rotate(288deg) translate3d(0px, 0px, 3px);
+    }
+    83.33% {
+        -webkit-transform: rotate(300deg) translate3d(0px, 0px, 3px);
+    }
+    86.66% {
+        -webkit-transform: rotate(312deg) translate3d(0px, 0px, 3px);
+    }
+    89.99% {
+        -webkit-transform: rotate(324deg) translate3d(0px, 0px, 3px);
+    }
+    90% {
+        -webkit-transform: rotate(324deg) translate3d(0px, 0px, 3px);
+    }
+    93.33% {
+        -webkit-transform: rotate(336deg) translate3d(0px, 0px, 3px);
+    }
+    96.66% {
+        -webkit-transform: rotate(348deg) translate3d(0px, 0px, 3px);
+    }
+    99.99% {
+        -webkit-transform: rotate(360deg) translate3d(0px, 0px, 3px);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translate3d(0px, 0px, 3px);
+    }
+}
+
+@-webkit-keyframes fb-loader-back {
+	from {
+        -webkit-transform: rotate3d( 0, 0, -1,0deg);
+    }
+    8.32% {
+        -webkit-transform: rotate3d( 0, 0, -1,0deg);
+    }
+    8.33% {
+        -webkit-transform: rotate3d( 0, 0, -1,30deg);
+    }
+    16.65% {
+        -webkit-transform: rotate3d( 0, 0, -1,30deg);
+    }
+    16.66% {
+        -webkit-transform: rotate3d( 0, 0, -1,60deg);
+    }
+    24.99% {
+        -webkit-transform: rotate3d( 0, 0, -1,60deg);
+    }
+    25% {
+        -webkit-transform: rotate3d( 0, 0, -1,90deg);
+    }
+    33.32% {
+        -webkit-transform: rotate3d( 0, 0, -1,90deg);
+    }
+    33.33% {
+        -webkit-transform: rotate3d( 0, 0, -1,120deg);
+    }
+    41.65% {
+        -webkit-transform: rotate3d( 0, 0, -1,120deg);
+    }
+    41.66% {
+        -webkit-transform: rotate3d( 0, 0, -1,150deg);
+    }
+    49.99% {
+        -webkit-transform: rotate3d( 0, 0, -1,150deg);
+    }
+    50% {
+        -webkit-transform: rotate3d( 0, 0, -1,180deg);
+    }
+    58.32% {
+        -webkit-transform: rotate3d( 0, 0, -1,180deg);
+    }
+    58.33% {
+        -webkit-transform: rotate3d( 0, 0, -1,210deg);
+    }
+    66.65% {
+        -webkit-transform: rotate3d( 0, 0, -1,210deg);
+    }
+    66.66% {
+        -webkit-transform: rotate3d( 0, 0, -1,240deg);
+    }
+    74.99% {
+        -webkit-transform: rotate3d( 0, 0, -1,240deg);
+    }
+    75% {
+        -webkit-transform: rotate3d( 0, 0, -1,270deg);
+    }
+    83.32% {
+        -webkit-transform: rotate3d( 0, 0, -1,270deg);
+    }
+    83.33% {
+        -webkit-transform: rotate3d( 0, 0, -1,300deg);
+    }
+    91.65% {
+        -webkit-transform: rotate3d( 0, 0, -1,300deg);
+    }
+    91.66% {
+        -webkit-transform: rotate3d( 0, 0, -1,330deg);
+    }
+    99.99% {
+        -webkit-transform: rotate3d( 0, 0, -1,330deg);
+    }
+    to {
+        -webkit-transform: rotate3d( 0, 0, -1,360deg);
+    }
+}

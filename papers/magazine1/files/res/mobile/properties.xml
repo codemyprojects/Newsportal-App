@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1"/>
+      <title value=""/>
+      <children>
+        <tocData>
+          <pageNumber value="1"/>
+          <title value="Chapter 1"/>
+          <children>
+            <tocData>
+              <pageNumber value="1"/>
+              <title value="Introduction"/>
+              <children>
+                <tocData>
+                  <pageNumber value="1"/>
+                  <title value="Exercises"/>
+                  <children/>
+                </tocData>
+              </children>
+            </tocData>
+          </children>
+        </tocData>
+        <tocData>
+          <pageNumber value="1"/>
+          <title value="Chapter 3"/>
+          <children>
+            <tocData>
+              <pageNumber value="1"/>
+              <title value="Underlying Technologies"/>
+              <children>
+                <tocData>
+                  <pageNumber value="1"/>
+                  <title value="Exercises"/>
+                  <children/>
+                </tocData>
+                <tocData>
+                  <pageNumber value="1"/>
+                  <title value="T = D / V = (2500 meters) / (200,000,000 meters/second) = 0.0000125 s = 12.5 ms"/>
+                  <children/>
+                </tocData>
+                <tocData>
+                  <pageNumber value="1"/>
+                  <title value="T = L / R = (520 bits) / (10,000,000) bits/second = 0.000052 s = 52 ms"/>
+                  <children/>
+                </tocData>
+                <tocData>
+                  <pageNumber value="2"/>
+                  <title value="Table 3.E8 Exercise 8"/>
+                  <children/>
+                </tocData>
+              </children>
+            </tocData>
+          </children>
+        </tocData>
+      </children>
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="13421772"/>
+        <width value="639"/>
+        <height value="800"/>
+        <slideshowDelay value="3000"/>
+      </defaultValue>
+      <elements>
+        <page>
+          <links/>
+          <id value="1"/>
+        </page>
+        <page>
+          <links/>
+          <id value="2"/>
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="other/search.txt"/>
+    <bookId value="{F8BA35F6-DAC4-4496-B499-C0B2117A18BC}"/>
+    <bookWidth value="639"/>
+    <bookHeight value="800"/>
+    <bookName value=""/>
+    <bookBG src="other/background.jpg" scale="scale" width="639" height="800" color="13421772"/>
+    <hardCover value="false" border="false" color="16100206" width="15" height="15"/>
+    <bookLang value="en"/>
+    <tocVisible value="true"/>
+    <slideshowVisible value="true"/>
+    <bookmarksVisible value="true"/>
+    <searchVisible value="true"/>
+    <navigationVisible value="true"/>
+    <singlePageMode value="false"/>
+    <rightToLeftMode value="false"/>
+    <skin style="ClassicGrey"/>
+    <sessionRestore value="false"/>
+  </bookProperties>
+</Properties>

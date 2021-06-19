@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+	<item name="LNG_SEARCHBOX_TITLE" label="Title">Suche</item>
+	<item name="LNG_SEARCHBOX_START" label="start search">Suche</item>
+	<item name="LNG_SEARCHBOX_RESULTS_CLOSE" label="Close Button">Close</item>
+</lang>

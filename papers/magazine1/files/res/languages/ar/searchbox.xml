@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_SEARCHBOX_TITLE" label="Title">البحث</item>
+	<item name="LNG_SEARCHBOX_START" label="start search">بدء البحث</item>
+	<item name="LNG_SEARCHBOX_RESULTS_CLOSE" label="Close Button">أغلق</item>
+</lang>

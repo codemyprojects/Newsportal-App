@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1"/>
+      <title value=""/>
+      <children/>
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="13421772"/>
+        <width value="565"/>
+        <height value="800"/>
+      </defaultValue>
+      <elements>
+        <page>
+          <links/>
+          <id value="1"/>
+        </page>
+        <page>
+          <links/>
+          <id value="2"/>
+        </page>
+        <page>
+          <links/>
+          <id value="3"/>
+        </page>
+        <page>
+          <links/>
+          <id value="4"/>
+        </page>
+        <page>
+          <links/>
+          <id value="5"/>
+        </page>
+        <page>
+          <links/>
+          <id value="6"/>
+        </page>
+        <page>
+          <links/>
+          <id value="7"/>
+        </page>
+        <page>
+          <links/>
+          <id value="8"/>
+        </page>
+        <page>
+          <links/>
+          <id value="9"/>
+        </page>
+        <page>
+          <links/>
+          <id value="10"/>
+        </page>
+        <page>
+          <links/>
+          <id value="11"/>
+        </page>
+        <page>
+          <links/>
+          <id value="12"/>
+        </page>
+        <page>
+          <links/>
+          <id value="13"/>
+        </page>
+        <page>
+          <links/>
+          <id value="14"/>
+        </page>
+        <page>
+          <links/>
+          <id value="15"/>
+        </page>
+        <page>
+          <links/>
+          <id value="16"/>
+        </page>
+        <page>
+          <links/>
+          <id value="17"/>
+        </page>
+        <page>
+          <links/>
+          <id value="18"/>
+        </page>
+        <page>
+          <links/>
+          <id value="19"/>
+        </page>
+        <page>
+          <links/>
+          <id value="20"/>
+        </page>
+        <page>
+          <links/>
+          <id value="21"/>
+        </page>
+        <page>
+          <links/>
+          <id value="22"/>
+        </page>
+        <page>
+          <links/>
+          <id value="23"/>
+        </page>
+        <page>
+          <links/>
+          <id value="24"/>
+        </page>
+        <page>
+          <links/>
+          <id value="25"/>
+        </page>
+        <page>
+          <links/>
+          <id value="26"/>
+        </page>
+        <page>
+          <links/>
+          <id value="27"/>
+        </page>
+        <page>
+          <links/>
+          <id value="28"/>
+        </page>
+        <page>
+          <links/>
+          <id value="29"/>
+        </page>
+        <page>
+          <links/>
+          <id value="30"/>
+        </page>
+        <page>
+          <links/>
+          <id value="31"/>
+        </page>
+        <page>
+          <links/>
+          <id value="32"/>
+        </page>
+        <page>
+          <links/>
+          <id value="33"/>
+        </page>
+        <page>
+          <links/>
+          <id value="34"/>
+        </page>
+        <page>
+          <links/>
+          <id value="35"/>
+        </page>
+        <page>
+          <links/>
+          <id value="36"/>
+        </page>
+        <page>
+          <links/>
+          <id value="37"/>
+        </page>
+        <page>
+          <links/>
+          <id value="38"/>
+        </page>
+        <page>
+          <links/>
+          <id value="39"/>
+        </page>
+        <page>
+          <links/>
+          <id value="40"/>
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="other/search.txt"/>
+    <bookId value="{FF5DE3A2-4305-47B7-9AA0-F7C3DFB1413B}"/>
+    <bookWidth value="565"/>
+    <bookHeight value="800"/>
+    <bookName value="chhargong"/>
+    <bookBG src="other/background.jpg" scale="scale" width="565" height="800" color="13421772"/>
+    <bookLang value="en"/>
+    <tocVisible value="true"/>
+    <slideshowVisible value="true"/>
+    <bookmarksVisible value="true"/>
+  </bookProperties>
+</Properties>

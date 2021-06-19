@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_ZOOM_OUT" label="Zoom Out">縮小</item>
+	<item name="LNG_ZOOM_IN" label="Zoom in">拡大</item>
+</lang>

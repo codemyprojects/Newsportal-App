@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc>
+  <item page="1" value="Chapter 1">
+    <item page="1" value="Introduction">
+      <item page="1" value="Exercises"/>
+    </item>
+  </item>
+  <item page="1" value="Chapter 3">
+    <item page="1" value="Underlying Technologies">
+      <item page="1" value="Exercises"/>
+      <item page="1" value="T = D / V = (2500 meters) / (200,000,000 meters/second) = 0.0000125 s = 12.5 ms"/>
+      <item page="1" value="T = L / R = (520 bits) / (10,000,000) bits/second = 0.000052 s = 52 ms"/>
+      <item page="2" value="Table 3.E8 Exercise 8"/>
+    </item>
+  </item>
+</toc>

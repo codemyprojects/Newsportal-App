@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="it">
+	<item name="LNG_FIRST_PAGE" label="First Page Button">Prima</item>
+	<item name="LNG_LAST_PAGE" label="Last Page Button">Ultima</item>
+	<item name="LNG_PREV_PAGE" label="Previous Page Button">Pagina Precedente</item>
+	<item name="LNG_NEXT_PAGE" label="Next Page Button">Pagina Successiva</item>
+	<item name="LNG_GOTO_PAGE" label="Page Number">Page $1</item>
+	<item name="LNG_GOTO_PAGE_TIP" label="Page Number ToolTip"></item>
+	<item name="LNG_FULLSCREEN" label="Fullscreen Button">Abilita Schermo Intero</item>
+	<item name="LNG_EXITFULLSCREEN" label="Exit Fullscreen Button">Disabilita Schermo Intero</item>
+	<item name="LNG_MUTE" label="Mute Button">Mute</item>
+	<item name="LNG_MUSIC" label="Music Button">Music</item>
+	<item name="LNG_ZOOM_IN" label="ZoomIn Button">stretto</item>
+	<item name="LNG_ZOOM_OUT" label="ZoomOut Button">Zoom indietro</item>
+	<item name="LNG_DOWNLOAD" label="Download Button">Scarica</item>
+	<item name="LNG_TITLE" label="Title">title</item>
+	<item name="LNG_BOOKMARKS" label="Bookmarks Button">Segnalibro</item>
+	<item name="LNG_SHARE" label="Share Button">Condividi</item>
+	<item name="LNG_SEARCH" label="Search Button">Cerca</item>
+	<item name="LNG_TOC" label="TOC Button">Tabella di contenuti</item>
+	<item name="LNG_THUMBNAIL" label="Thumbnails Button">miniature</item>
+	<item name="LNG_PRINT" label="Print Button">Stampa</item>
+	<item name="LNG_PLAY" label="Play Button">giocare</item>
+	<item name="LNG_STOP" label="Stop Button">Stop</item>
+	<item name="LNG_TOOLBAR_PAGINATION" label="Pagination">Page:</item>
+</lang>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_SHARE_TITLE" label="Title">حصة</item>
+	<item name="LNG_SHARE_FRIEND" label="Send Label">أرسل إلى صديق</item>
+	<item name="LNG_SHARE_SUBJECT" label="Subject">موضوع</item>
+	<item name="LNG_SHARE_TOEMAIL" label="To">إلى (عنوان البريد الإلكتروني)</item>
+	<item name="LNG_SHARE_NOTE" label="Notes">لديك ملاحظات</item>
+	<item name="LNG_SHARE_SEND" label="Send Button">إرسال</item>
+	<item name="LNG_SHARE_BOOKMARK" label="Social Label">المرجعية الاجتماعية</item>
+	<item name="LNG_SHARE_LINK" label="Link Label">صلة</item>
+	<item name="LNG_SHARE_COPY" label="Copy Button">نسخ</item>
+</lang>

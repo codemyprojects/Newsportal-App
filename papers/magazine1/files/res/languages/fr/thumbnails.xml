@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<item name="LNG_THUMBNAIL_TITLE" label="Title">Miniatures</item>
+	<item name="LNG_THUMBNAIL_PREV" label="Previous Button">Les pages précédentes</item>
+	<item name="LNG_THUMBNAIL_NEXT" label="Next Button">Pages suivantes</item>
+</lang>

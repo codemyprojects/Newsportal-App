@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_SHARE_TITLE" label="Title">共有</item>
+	<item name="LNG_SHARE_FRIEND" label="Send Label">友達に送る</item>
+	<item name="LNG_SHARE_SUBJECT" label="Subject">題</item>
+	<item name="LNG_SHARE_TOEMAIL" label="To">送り先アドレス</item>
+	<item name="LNG_SHARE_NOTE" label="Notes">ノート</item>
+	<item name="LNG_SHARE_SEND" label="Send Button">送る</item>
+	<item name="LNG_SHARE_BOOKMARK" label="Social Label">ソーシャルマーク</item>
+	<item name="LNG_SHARE_LINK" label="Link Label">リンク</item>
+	<item name="LNG_SHARE_COPY" label="Copy Button">コピー</item>
+</lang>

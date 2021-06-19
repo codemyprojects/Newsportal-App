@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html style="height:100%; width:100%; margin: 0; overflow: hidden;" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>FlipBook</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="Generator" content="[Kvisoft FlipBook Maker Pro version 3.6.10] at http://www.kvisoft.com/flipbook-maker-pro/" />
+		<script type="text/javascript" src="files/js/swfobject.js"></script>
+		<script type="text/javascript" src="files/js/swfaddress.js"></script>
+    <script type="text/javascript">
+	  var assetsFolder = 'res';
+	  var mobileFolder = 'mobile';
+
+ 	  var changeURL = function(){
+	  	if(document.getElementById('hrefMobile'))document.getElementById('hrefMobile').href =dir+mobileFolder+'/index.html';
+		delete changeURL;
+	  }
+	  if (document.addEventListener){
+		document.addEventListener("DOMContentLoaded", changeURL, false);
+	  } else {
+		document.attachEvent("onDOMContentLoaded", changeURL);
+	  }
+
+		function getURLParam()
+		{
+			var returnObject = {};
+      var href = window.location.href;
+      if ( href.indexOf("?") > -1 )
+      {
+				var param = href.substr(href.indexOf("?"));
+				var arrayParam = param.split("&");
+	  
+				for ( var i = 0; i < arrayParam.length; i++ )
+				{
+					var value = arrayParam[i].split("=");
+					returnObject[value[0]] = value[1];
+				}
+			}
+			returnObject['res'] = assetsFolder;
+			return returnObject;
+		}
+		
+		var dir = "./files/";
+	
+		 var getURI = function(){
+        		var URIArray = document.location.href.split('/');
+        
+       			 URIArray.length = URIArray.length-1;
+        		var URIstr = URIArray.join('/');
+        
+        		URIArray = null;
+        
+        		var URIarr = dir.split('/');
+        		URIarr[0] = URIarr[0]=='.'?'':URIarr[0];
+        		var dirStr = URIarr.join('/');
+        
+        		URIstr = URIstr+dirStr;
+
+			return URIstr;
+      		}
+			
+          var ua = navigator.userAgent.toLowerCase(),
+          platform = navigator.platform.toLowerCase(),
+          UA = ua.match(/(opera|ie|firefox|chrome|version)[\s\/:]([\w\d\.]+)?.*?(safari|version[\s\/:]([\w\d\.]+)|$)/) || [null, 'unknown', 0],
+          mode = UA[1] == 'ie' && document.documentMode;
+
+          var Browser = {
+          extend: Function.prototype.extend,
+          name: (UA[1] == 'version') ? UA[3] : UA[1],
+          version: mode || parseFloat((UA[1] == 'opera' && UA[4]) ? UA[4] : UA[2]),
+          Platform: {
+          name: ua.match(/ip(?:ad|od|hone)/) ? 'ios' : (ua.match(/(?:webos|android|bada|symbian|palm|blackberry)/) || platform.match(/mac|win|linux/) || ['other'])[0]
+          },
+          Features: {
+          xpath: !!(document.evaluate),
+          air: !!(window.runtime),
+          query: !!(document.querySelector),
+          json: !!(window.JSON)
+          },
+          Plugins: {}
+          };
+		
+          var page = parseInt(window.location.hash.substring(2, window.location.hash.length-1));
+          page = page?'#'+page:'';
+          if(Browser.Platform.name == 'android' || Browser.Platform.name == 'ios') window.location =dir+mobileFolder+"/index.html"+page;
+    
+    	var dir = "./files/";
+    	var jsfolder = "js/";
+    	var swffile = "book.swf";
+    	
+			var flashvars = {};
+			var params = {
+				menu: "false",
+				scale: "noScale",
+				allowfullscreen: "true",
+				allowscriptaccess: "always",
+				bgcolor: "#ffffff",
+				wmode:"transparent"
+			};
+			var attributes = {id: "magazine"};
+			swfobject.embedSWF(dir+swffile, "magazine", "100%", "100%", "9.0.0", dir+jsfolder+"expressInstall.swf", flashvars, params, attributes);
+          </script>
+         
+  </head>
+<body style="padding: 0px; margin: 0px; height:100%; width:100%;">
+	<div id="magazine">
+		<h1>Requires FlashPlayer</h1>
+		<p><a href="http://get.adobe.com/flashplayer/"><img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png" alt="Get Adobe Flash Player"/></a></p>
+		<p>Please try the above link first. If you still encounter problems after installing the Flash Player, try this one:</p>
+		<p><a href="http://get.adobe.com/shockwave/"><img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_shockwave_player.png" alt="Get Adobe Shockwave Player"/></a></p>
+		<p><a id="hrefMobile" href="files/mobile/index.html">Mobile version</a></p>
+    <p>Powered by Kvisoft</p>
+	</div> 
+  </body>
+</html>

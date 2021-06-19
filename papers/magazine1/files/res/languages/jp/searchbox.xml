@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="jp">
+	<item name="LNG_SEARCHBOX_TITLE" label="Title">検索</item>
+	<item name="LNG_SEARCHBOX_START" label="start search">検索開始</item>
+	<item name="LNG_SEARCHBOX_RESULTS_CLOSE" label="Close Button">閉じる</item>
+</lang>

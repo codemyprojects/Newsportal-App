@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+@import url(featured_slide.css);
+.container{
+	padding:20px 0;
+	}
+
+.content{
+	display:block;
+	float:left;
+	width:630px;
+	}
+	

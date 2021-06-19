@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="no"?>
+<asul>
+<style>
+	<![CDATA[
+		<!-- fullscreen_up style -->
+		togglebutton.fullscreen button box{
+			background:image(###btnimg###)
+		}
+		<!-- fullscreen_up style end -->
+		<!-- fullscreen_down style -->
+		togglebutton.fullscreen button.toggled box{
+			background:image(###btnimg###)
+		}
+		<!-- fullscreen_down style -->
+		togglebutton.mute button box{
+			background:image(gui/navigationbar/btn_mute.png)
+		}
+		togglebutton.mute button.toggled box{
+			background:image(gui/navigationbar/btn_unmute.png)
+		}
+		button.zoom_in box{
+			background:image(gui/navigationbar/btn_zoom_in.png)
+		}
+		button.zoom_out box{background:image(gui/navigationbar/btn_zoom_out.png)}
+		button.first box{background:image(gui/navigationbar/btn_page_first.png)}
+		button.last box{background:image(gui/navigationbar/btn_page_last.png)}
+		button.prev box{background:image(gui/navigationbar/btn_page_prev.png)}
+		button.next box{background:image(gui/navigationbar/btn_page_next.png)}
+		button.rotate_left box{background:image(gui/navigationbar/btn_rotate_left.png)}
+		button.rotate_right box{background:image(gui/navigationbar/btn_rotate_right.png)}
+		togglebutton.page button box{background:image(gui/navigationbar/btn_page_small.png);x:0;y:0;width:16;height:24}
+		togglebutton.page button box.over{background:image(gui/navigationbar/btn_page_big.png)}
+		togglebutton.page button box.down{background:image(gui/navigationbar/btn_page_big.png);x:1;y:1}
+		togglebutton.page button.toggled box{background:image(gui/navigationbar/btn_page_big.png);x:0;y:0;filter:none}
+		togglebutton.page{width:16}togglebutton.mute button{title:localize(LNG_MUTE, Mute)}
+		togglebutton.mute button.toggled{title:localize(LNG_MUSIC, Unmute)}
+		togglebutton.fullscreen button{title:localize(LNG_FULLSCREEN, Fullscreen)}
+		togglebutton.fullscreen button.toggled{title:localize(LNG_EXITFULLSCREEN, Exit fullscreen)}
+		text.big{anchors:0,0,pw,ph;filter:dropshadow(2,45,0x000000,1,3,3,0.5,2);size:15;align:center;color:0xFFFFFF;font:Verdana;bold:true}
+		button.flag{height:20;width:20}
+		button.flag box{width:20;height:20;x:0;y:0}
+		button.flag box.over,button.flag box.down{filter:glow(0xFFFFFF,1,3,3,2,2,true)}
+		button.flag box.down{x:0;y:0}
+	
+		box.input{background:image(res/other/input.png);scale9grid:10,10,11,11}
+		box.input text{anchors:0,0,pw,ph;selectable:true;input:true;color:0x333333;font:Verdana;size:12}
+		
+		button.scroll_handle box{background:image(gui/zoom/btn_scroll_handle.png);width:15;height:15}
+		button.scroll_handle box.over{background:image(gui/zoom/btn_scroll_handle1.png)}]]>
+	]]>
+</style>
+
+
+<box anchors="0,0,pw,ph" id="navigationframe">
+<!-- topbar -->
+<!-- topbar end -->
+<!-- bottombar -->
+<box width="0" height="53" background="image(res/navbar/bottom.png)" anchors="0+15,ph-h,pw-15" scale9grid="45,10,60,52"/>
+<!-- bottombar end -->
+
+
+
+<hflow anchors="5,8" clipchildren="false">
+	<!-- title -->
+	<text align="justify" autosize="left" value="www.kvisoft.com" url="http://www.kvisoft.com/flipbook-maker/" mouseenabled="true" color="16777215" size="12" font="Tahoma" bold="false" italic="false" underline="false"/>
+	<!-- title end -->
+	<!-- pagenum -->
+	<text	padding="15,0,0,0" align="justify" autosize="left" value="localize(LNG_TOOLBAR_PAGINATION, Page:)" color="16777215" size="12" font="Tahoma" bold="false" italic="false" underline="false"/>
+	<box name="goto_box" height="20" width="90" style="input">	
+		<text align="center" maxchars="3" name="txt_gotopage" font="Tahoma" restrict="\-0123456789/" title="localize(LNG_GOTO_PAGE_TIP)"/>
+	</box>	
+	<!-- pagenum end -->
+</hflow>
+
+<hflow anchors="pw-w-8-5,8">
+		<!-- language -->
+		<vflow anchors="0,0" collapse_height="20" collapse_width="20" maxheight="120" name="langchooser"/>
+		<!-- language end -->
+		<!-- searchbox -->
+		<box width="154" height="20" name="box_searchbox" visible="true">
+			<box anchors="10" width="144" height="20" style="input">
+				<text anchors="3,0,115,ph" name="tSearchBox" value=""/>
+				<button anchors="120,0" width="20" height="20" name="btnSearchBox" background="image(res/other/searchbox/startsearch.png)" title="localize(LNG_SEARCHBOX_START, Start search)"/>		
+			</box>
+		</box>	
+		<!-- searchbox end -->
+</hflow>
+
+<!-- buttons -->
+<hflow anchors="30,ph-h-8" mouseenabled="false" clipchildren="false">
+	<!-- bookmarks -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/bookmarks.swf)" name="btn_bookmarks" title="localize(LNG_BOOKMARKS, Bookmarks)" mouseenabled="true"/>
+	<!-- bookmarks end -->
+	<!-- toc -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/toc.swf)" name="btn_toc" title="localize(LNG_TOC, Table of content)" mouseenabled="true"/>
+	<!-- toc end -->
+	<!-- thumbnail -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/thumbnail.swf)" name="btn_thumb" title="localize(LNG_THUMBNAIL, Thumbnails)" mouseenabled="true"/>
+	<!-- thumbnail end -->
+	<!-- print -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/print.swf)" name="btn_print" title="localize(LNG_PRINT, Print)" mouseenabled="true"/>
+	<!-- print end -->
+	<!-- download -->
+	<button width="46" height="60" visible="false" background="image(res/navbtn/download.swf)" name="btn_download" title="localize(LNG_DOWNLOAD, Download)" mouseenabled="true"/>
+	<!-- download end -->
+	<!-- music -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/music.swf)" name="btn_music" title="localize(LNG_MUSIC, Music)" mouseenabled="true"/>
+	<!-- music end -->
+	<!-- mute -->
+	<button width="46" height="60" visible="false" background="image(res/navbtn/mute.swf)" name="btn_mute" title="localize(LNG_MUTE, Mute)" mouseenabled="true"/>
+	<!-- mute end -->
+	<!-- share -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/share.swf)" name="btn_share" title="localize(LNG_SHARE, Share)" mouseenabled="true"/>
+	<!-- share end -->
+	<hflow name="plugin_buttons" mouseenabled="false" clipchildren="false"/>
+	<!-- zoomin -->
+	<button width="46" height="60" visible="true" onclick="megazine.zoomIn();updatebar();" name="btn_zoomin" background="image(res/navbtn/zoomin.swf)" title="localize(LNG_ZOOM_IN, Zoom in)"/>
+	<!-- zoomin end -->
+	<!-- zoomout -->
+	<button width="46" height="60" visible="true" onclick="megazine.zoomOut();updatebar();" name="btn_zoomout" background="image(res/navbtn/zoomout.swf)" title="localize(LNG_ZOOM_OUT, Zoom out)"/>
+	<!-- zoomout end -->
+	<!-- search -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/search.swf)" name="btn_search" title="localize(LNG_SEARCH, Search)" mouseenabled="true"/>
+	<!-- search end -->
+	<!-- fullscreen -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/fullscreen.swf)" name="btn_fullscreen" title="localize(LNG_FULLSCREEN, Fullscreen)" mouseenabled="true"/>
+	<!-- fullscreen end -->
+	<!-- exitfullscreen -->
+	<button width="46" height="60" visible="false" background="image(res/navbtn/exitfullscreen.swf)" name="btn_exitfullscreen" title="localize(LNG_EXITFULLSCREEN, Exit fullscreen)" mouseenabled="true"/>
+	<!-- exitfullscreen end -->
+</hflow>
+<hflow anchors="pw-w-30,ph-h-8" mouseenabled="false" clipchildren="false">
+	<!-- firstpage -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/firstpage.swf)" name="btn_firstpage" title="localize(LNG_FIRST_PAGE, First page)" mouseenabled="true"/>
+	<!-- firstpage end -->
+	<!-- previouse -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/previous.swf)" name="btn_prevpage" title="localize(LNG_PREV_PAGE, Previous page)" mouseenabled="true"/>
+	<!-- previouse end -->
+	<!-- play -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/play.swf)" name="btn_play" title="localize(LNG_PLAY, Play)" mouseenabled="true"/>
+	<!-- play end -->
+	<!-- stop -->
+	<button width="46" height="60" visible="false" background="image(res/navbtn/stop.swf)" name="btn_stop" title="localize(LNG_STOP, Stop)" mouseenabled="true"/>
+	<!-- stop end -->
+	<!-- next -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/next.swf)" name="btn_nextpage" title="localize(LNG_NEXT_PAGE, Next page)" mouseenabled="true"/>
+	<!-- next end -->
+	<!-- lastpage -->
+	<button width="46" height="60" visible="true" background="image(res/navbtn/lastpage.swf)" name="btn_lastpage" title="localize(LNG_LAST_PAGE, Last page)" mouseenabled="true"/>
+	<!-- lastpage end -->
+</hflow>
+<!-- buttons end -->
+
+	<box anchors="(pw-w)/2,(ph-h)/2" name="thumbnail" style="container"/>
+</box>
+
+	<togglebutton id="btn_page" style="common page"/>
+	<button id="btn_flag" style="flag">
+		<box name="$up$"/>
+		<box name="$over$" style="over"/>
+		<box name="$down$" style="down"/>
+	</button>
+</asul>

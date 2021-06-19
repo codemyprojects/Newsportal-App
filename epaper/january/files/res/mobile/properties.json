@@ -1,0 +1,266 @@
+{
+ "bookProperties": {
+  "pages": {
+   "elements": {
+    "page": [
+     {
+      "links": {},
+      "id": {
+       "value": "1"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "2"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "3"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "4"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "5"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "6"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "7"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "8"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "9"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "10"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "11"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "12"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "13"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "14"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "15"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "16"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "17"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "18"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "19"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "20"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "21"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "22"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "23"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "24"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "25"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "26"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "27"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "28"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "29"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "30"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "31"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "32"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "33"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "34"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "35"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "36"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "37"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "38"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "39"
+      }
+     },{
+      "links": {},
+      "id": {
+       "value": "40"
+      }
+     }]
+   },
+   "defaultValue": {
+    "BGColor": {
+     "value": "13421772"
+    },
+    "width": {
+     "value": "565"
+    },
+    "height": {
+     "value": "800"
+    }
+   }
+  },
+  "bookName": {
+   "value": "chhargong"
+  },
+  "bookLang": {
+   "value": "en"
+  },
+  "bookHeight": {
+   "value": "800"
+  },
+  "slideshowVisible": {
+   "value": "true"
+  },
+  "tocVisible": {
+   "value": "true"
+  },
+  "bookWidth": {
+   "value": "565"
+  },
+  "searchIndex": {
+   "ext": "other\/search.txt"
+  },
+  "bookmarksVisible": {
+   "value": "true"
+  },
+  "bookId": {
+   "value": "{FF5DE3A2-4305-47B7-9AA0-F7C3DFB1413B}"
+  },
+  "bookBG": {
+   "src": "other\/background.jpg",
+   "width": "565",
+   "height": "800",
+   "scale": "scale",
+   "color": "13421772"
+  }
+ },
+ "tableOfContent": {
+  "tocData": {
+   "pageNumber": {
+    "value": "1"
+   },
+   "children": {},
+   "title": {
+    "value": ""
+   }
+  }
+ }
+}

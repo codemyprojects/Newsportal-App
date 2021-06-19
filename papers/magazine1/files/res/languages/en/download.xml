@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<item name="LNG_DOWNLOAD_TITLE" label="Title">Download</item>
+	<item name="LNG_DOWNLOAD_BUTTON" label="Download Button">Download</item>
+	<item name="LNG_DOWNLOAD_ALL" label="All Page RadioButton">Download All Pages</item>
+	<item name="LNG_DOWNLOAD_PAGE" label="Page RadioButton">Download page:</item>
+</lang>

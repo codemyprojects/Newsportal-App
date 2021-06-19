@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="fr">
+	<item name="LNG_PRINT_TITLE" label="Title">Imprimer</item>
+	<item name="LNG_PRINT_OK" label="OK Button">OK</item>
+	<item name="LNG_PRINT_TIP" label="Print Label">Sélectionnez la page à imprimer</item>
+	<item name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">Exemple :2-10, 12,15</item>
+	<item name="LNG_PRINT_PREV" label="Previous Button">Les pages précédentes</item>
+	<item name="LNG_PRINT_NEXT" label="Next Button">Pages suivantes</item>
+	<item name="LNG_PRINT_PRINT" label="Print selected">Imprimer les pages sélectionnées</item>
+	<item name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages"><![CDATA[Vous n'êtes pas permettre d'imprimer plus de <b> $ 1 </ b> pages à la fois. S'il vous plaît de réduire votre sélection (vous avez sélectionné <b> $ 2 </ b> pages).]]></item>
+	<item name="LNG_PRINT_WARNING" label="Warning">Avertissement</item>
+</lang>

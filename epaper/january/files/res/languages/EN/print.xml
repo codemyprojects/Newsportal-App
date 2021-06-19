@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<item name="LNG_PRINT_TITLE">Print</item>
+	<item name="LNG_PRINT_START_PRINT">Print</item>
+	<item name="LNG_PRINT_OK">OK</item>
+	<item name="LNG_PRINT_TIP">Select the page(s) or input the page range to print.</item>
+	<item name="LNG_PRINT_INPUT_TIP">Example:2-10,12,15</item>
+	<item name="LNG_PRINT_PREV">Previous pages</item>
+	<item name="LNG_PRINT_NEXT">Next pages</item>
+	<item name="LNG_PRINT_PRINT">Print selected pages</item>
+	<item name="LNG_PRINT_TOO_MANY_PAGES"><![CDATA[You are not allow to print more than <b>$1</b> pages at a time. Please reduce your selection (you have currently selected <b>$2</b> pages).]]></item>
+	<item name="LNG_PRINT_WARNING">Warning</item>
+</lang>

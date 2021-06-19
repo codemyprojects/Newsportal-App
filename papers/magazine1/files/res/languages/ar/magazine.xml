@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_LANGUAGE_NAME" label="Language ToolTip">العربية</item>
+	<item name="LNG_LOADING" label="Page Loading">تحميل...</item>
+	<item name="LNG_BOOKEDGE_PAGENUMBER" label="Page Number">صفحة $1</item>
+	<item name="LNG_CLOSE" label="Close Button">أغلق</item>
+</lang>

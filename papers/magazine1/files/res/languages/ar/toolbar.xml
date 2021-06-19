@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_FIRST_PAGE" label="First Page Button">اولا</item>
+	<item name="LNG_LAST_PAGE" label="Last Page Button">أخيرا</item>
+	<item name="LNG_PREV_PAGE" label="Previous Page Button">الصفحة السابقة</item>
+	<item name="LNG_NEXT_PAGE" label="Next Page Button">الصفحة التالية</item>
+	<item name="LNG_GOTO_PAGE" label="Page Number">صفحة $1</item>
+	<item name="LNG_GOTO_PAGE_TIP" label="Page Number ToolTip"></item>
+	<item name="LNG_FULLSCREEN" label="Fullscreen Button">تمكين شاشة كاملة</item>
+	<item name="LNG_EXITFULLSCREEN" label="Exit Fullscreen Button">عطل شاشة كاملة</item>
+	<item name="LNG_MUTE" label="Mute Button">قفل الصوت</item>
+	<item name="LNG_MUSIC" label="Music Button">تشغيل الصوت</item>
+	<item name="LNG_ZOOM_IN" label="ZoomIn Button">تكبير</item>
+	<item name="LNG_ZOOM_OUT" label="ZoomOut Button">تصغير</item>
+	<item name="LNG_DOWNLOAD" label="Download Button">التحميل</item>
+	<item name="LNG_TITLE" label="Title">لقب</item>
+	<item name="LNG_BOOKMARKS" label="Bookmarks Button">علامة الكتاب</item>
+	<item name="LNG_SHARE" label="Share Button">مشاركة</item>
+	<item name="LNG_SEARCH" label="Search Button">بحث</item>
+	<item name="LNG_TOC" label="TOC Button">جدول المحتويات</item>
+	<item name="LNG_THUMBNAIL" label="Thumbnails Button">صورة مصغرة</item>
+	<item name="LNG_PRINT" label="Print Button">طباعة</item>
+	<item name="LNG_PLAY" label="Play Button">قلب تلقائي</item>
+	<item name="LNG_STOP" label="Stop Button">وقف القلب التلقائي</item>
+	<item name="LNG_TOOLBAR_PAGINATION" label="Pagination">الصفحة:</item>
+</lang>

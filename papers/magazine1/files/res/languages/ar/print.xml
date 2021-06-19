@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ar">
+	<item name="LNG_PRINT_TITLE" label="Title">طباعة</item>
+	<item name="LNG_PRINT_OK" label="OK Button">موافق</item>
+	<item name="LNG_PRINT_TIP" label="Print Label">حدد الصفحة (ق) أو إدخال نطاق الصفحات للطباعة.</item>
+	<item name="LNG_PRINT_INPUT_TIP" label="Input ToolTip">مثال :2-10، 12،15</item>
+	<item name="LNG_PRINT_PREV" label="Previous Button">صفحات السابقة</item>
+	<item name="LNG_PRINT_NEXT" label="Next Button">صفحات المقبل</item>
+	<item name="LNG_PRINT_PRINT" label="Print selected">طباعة صفحات مختارة</item>
+	<item name="LNG_PRINT_TOO_MANY_PAGES" label="Many pages"><![CDATA[كنت لا تسمح لطباعة أكثر من <B> $ 1 </ B> صفحات في وقت واحد.]]></item>
+	<item name="LNG_PRINT_WARNING" label="Warning">تحذير</item>
+</lang>
